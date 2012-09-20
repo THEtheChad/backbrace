@@ -55,6 +55,9 @@ Backbone.SubCollection = Backbone.Collection.extend({
   remove: function(models, options){
     this.parent.remove(models, options);
     return this.__remove__(models, options);
+  },
+  updateSieve: function(func){
+    this.sieve = func;
   }
 });
 
