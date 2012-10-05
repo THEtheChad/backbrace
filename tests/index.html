@@ -3,16 +3,23 @@
 <head>
   <title>Backbrace Tests</title>
   <link rel="Stylesheet" media="screen" href="qunit/qunit/qunit.css" />
-  <!-- Includes -->
-  <script src="../libs/underscore/underscore.js"></script>
-  <script src="../libs/backbone/backbone.js"></script>
-  <script src="../src/backbrace.js"></script>
-  <script src="qunit/qunit/qunit.js"></script>
+  <!-- Dependencies -->
+  <script src="../libs/lo-dash/lo-dash-min.js"></script>
+  <script src="../src/core.spineless.js"></script>
+
+  <!-- Modules -->
+  <script src="../src/events.spineless.js"></script>
+  <script src="../src/model.spineless.js"></script>
+
+  <!-- Test Framework -->
+  <!--<script src="qunit/qunit/qunit.js"></script>-->
 </head>
 <body>
 <body>
   <div id="qunit"></div>
-  <script src="unit/backbrace.js"></script>
+
+  <!-- Unit Tests -->
+  <script src="unit/core.js"></script>
 
 </body>
 </html>
